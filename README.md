@@ -22,4 +22,9 @@ Após instalar as dependências rode a aplicação com o comando:
 flutter run
 ```
 
+O link da api não funciona no emulador quando o link seria localhot:8080 ou 127.0.0.1:8080, com isso é necessário alterar pelo seu IPV4 ou subir a api para que tenha o link. Alterar seguinte arquivo:
+```bash
+lib\configs\api\api.dart
+```
+
 \*Obs.: Lembrando que a API deve estar rodando
